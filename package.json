@@ -24,6 +24,7 @@
 	"dependencies": {
 		"@vercel/postgres": "^0.10.0",
 		"drizzle-orm": "^0.33.0",
+		"posthog-js": "^1.161.3",
 		"tailwind-merge": "^2.5.2"
 	}
 }

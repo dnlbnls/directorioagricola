@@ -9,7 +9,13 @@
 </script>
 
 <svelte:head>
-  <title>{toTitleCase(company.name)} - Directorio Agricola</title> 
+  <title>{toTitleCase(company.name)} - Directorio Agricola</title>
+  <link rel="canonical" href="https://directorioagricola.com/companies/{company.slug}">
+  <meta content="{company.name} - {company.category} - {company.subcategory}" name="description">
+  <meta content="{company.name} - Directorio Agricola" property="og:title">
+  <meta content="{company.name} - {company.category} - {company.subcategory}" property="og:description">
+  <meta content="{company.name} - Directorio Agricola" property="twitter:title">
+  <meta content="{company.name} - {company.category} - {company.subcategory}" property="twitter:description">
 </svelte:head>
 
 <section class="container mx-auto px-4 py-8">

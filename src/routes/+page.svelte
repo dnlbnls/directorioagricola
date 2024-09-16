@@ -61,7 +61,13 @@
 
 
   <svelte:head>
-      <title>Directorio Agricola</title> 
+      <title>Productos y servicios para tu agrícola | Directorio Agricola</title>
+      <link rel="canonical" href="https://directorioagricola.com">
+      <meta content="Encuentra negocios y servicios para tu agrícola." name="description">
+      <meta content="Directorio Agricola" property="og:title">
+      <meta content="Encuentra negocios y servicios para tu agrícola." property="og:description">
+      <meta content="Directorio Agricola" property="twitter:title">
+      <meta content="Encuentra negocios y servicios para tu agrícola." property="twitter:description">
   </svelte:head>
   
   <section class="container mx-auto px-4 py-8 flex flex-col gap-4">
