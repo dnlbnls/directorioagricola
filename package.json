@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@neondatabase/serverless": "^0.10.1",
 		"@vercel/postgres": "^0.10.0",
 		"drizzle-orm": "^0.33.0",
 		"posthog-js": "^1.161.3",
